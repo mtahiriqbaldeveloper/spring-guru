@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: "web"
+  h2:
+    console:
+      enabled: true
+  thymeleaf:
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+server:
+  port: 9090
